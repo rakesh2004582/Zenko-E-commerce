@@ -1,0 +1,29 @@
+# ── Secrets — NEVER commit these ──
+.env
+.env.*
+!.env.example
+
+# Maven build output
+target/
+*.jar
+*.war
+
+# Uploaded user content (regenerated at runtime; keep the folder structure only)
+uploads/products/*
+!uploads/products/.gitkeep
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
