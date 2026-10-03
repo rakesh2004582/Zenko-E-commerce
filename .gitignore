@@ -1,0 +1,61 @@
+
+# Node modules
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables — these were previously commented out, which meant
+# .env.local (containing real config) was NOT actually git-ignored. Fixed.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.local.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea
+
+# Lock files (optional - keep one if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage
+/coverage
+
+# Logs folder
+/logs
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debug files
+*.log
